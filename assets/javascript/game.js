@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
 	//Variables
 	//set up variables
@@ -112,6 +111,7 @@ $(document).ready(function () {
 	});
 
 });
+
 
 
 
