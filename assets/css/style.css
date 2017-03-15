@@ -1,0 +1,41 @@
+body {
+	background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px 2000px;
+}
+
+.jumbotron {
+	text-align: center;
+	background-color: #CFE2F3;
+}
+
+.panel {
+	background-color: #CFE2F3;
+}
+
+h1 {
+	font-family: 'Rock Salt', cursive;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: 'Sansita', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.crystalImg {
+	width: 145px;
+	height: 145px;
+
+}
+.txtStyle {
+	margin: 8px;
+	font-family: 'Sansita', sans-serif;
+}
+
+.scoreStyle {
+	margin: 8px;
+	font-family: 'Sansita', sans-serif;
+	text-align: center;
+}

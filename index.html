@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+
+	<title>Homework Assignment 4: Crystal Game</title>
+
+		<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Rock+Salt|Sansita" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class= "container">
+
+	<div class="jumbotron bg-primary text-center">
+		<h1>Crystal Collector</h1>
+	</div>
+
+	<div class= "row"></div>
+
+	<div class="row">
+		<div class= "col-md-6">
+			<div class="panel panel-default">
+	  			<div class="panel-body">
+	  				<h2>Instructions</h2>
+	  				<ul>
+	  				<li class = "glyphicon glyphicon-asterisk txtStyle">	You will be given a random number at the start of the game.</li>
+	  				<li class = "glyphicon glyphicon-asterisk txtStyle">	There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+	  				<li class = "glyphicon glyphicon-asterisk txtStyle">	You win the game by matching your total score to the random number shown.</li>
+	  				<li class = "glyphicon glyphicon-asterisk txtStyle">	The value of each crystal is hidden from you until you click on it.</li>
+	  				<li class = "glyphicon glyphicon-asterisk txtStyle">	Each time the game starts, the game will change the value of each crystal.</li>
+	  				<li><button id = "startBtn" type="button" class="btn btn-success txtStyle">Click to begin!</button></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class = "col-md-3">
+			<div class="panel panel-default">
+	  			<div class="panel-body">
+	  				<div class = "txtStyle">Wins: <span id = "win1"></span></div>
+	  				<div class = "txtStyle">Losses: <span id = "loss1"></span></div>
+	  			</div>
+	  		</div>
+	  	</div>
+	  	<div class = "col-md-3"></div>
+	</div>
+	<div class = "row">
+		<div class = "col-md-6">
+			<div class="panel panel-default">
+	  			<div class="panel-body">
+	  				<div  class = "scoreStyle">Number to match:	
+	  				<span id="random"></span></div>
+	  			</div>
+	  		</div>
+	  	</div>
+		<div class = "col-md-6">
+			<div class = "panel panel-default">
+				<div class = "panel-body">
+					<div class = "scoreStyle">Your total score is:	<span id = "userScore"></span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class = "row">
+		<div class = "col-md-2"></div>
+		<div class = "col-md-2">
+			<img class = "crystalImg" id = "pic1" src = "assets/images/crystal1.jpg" alt = "Crystal1">
+		</div>
+		<div class = "col-md-2">
+			<img class = "crystalImg" id = "pic2" src = "assets/images/crystal2.jpg" alt = "Crystal2">
+		</div>
+		<div class = "col-md-2">
+			<img class = "crystalImg" id = "pic3" src = "assets/images/crystal3.jpg" alt = "Crystal3">
+		</div>
+		<div class = "col-md-2">
+				<img class = "crystalImg" id = "pic4" src = "assets/images/crystal4.jpg" alt = "Crystal4">
+		</div>
+		<div class = "col-md-2"></div>
+	</div>
+	<div class= "row"></div>
+	<div class= "row"></div>
+</div>
+
+
+		
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>
